@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header-section{
+
+}
+
+.max-container{
+    max-width: 1920px;
+    margin: 0px auto;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo img{
+    height: 50px;
+    width: 170px;
+
+}
+.logo{
+    padding: 10px 0px 10px 25px;
+}
+
+
+.anchor-links {
+  
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 0px 25px 0px 0px;
+}
+
+.anchor-links a{
+    text-decoration: none;
+}
