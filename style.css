@@ -1,14 +1,14 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 .header-section{
-
+background-image: url(https://www.expertizo.pk/assets/img/hero-bg.png);
 }
 
 .max-container{
-    max-width: 1920px;
+    max-width: 1024px;
     margin: 0px auto;
     display:flex ;
     justify-content: space-between;
@@ -32,8 +32,121 @@
     justify-content: space-between;
     gap: 30px;
     padding: 0px 25px 0px 0px;
+    
 }
 
 .anchor-links a{
     text-decoration: none;
+    font-size: 19px;
+    color: #013289;
+    padding: 0px 0px 0px 0px ;
+}
+.anchor-links a:hover{
+    color: #4154f1;
+    text-decoration:underline;
+
+    
+}
+
+.contant-section{
+    display: flex;
+    padding: 35px 35px 35px 35px ;
+    background-image: url(https://www.expertizo.pk/assets/img/hero-bg.png);
+    margin: 0px 0px 55px 0px ;
+
+}
+
+/* .headings{
+    
+} */
+
+#contant-para-one{
+    color: #012970;
+    font-size: 50px;
+    margin: 0px 0px 25px 0px ;
+    
+}
+
+#contant-para-two{
+    color: #495057;
+    margin: 0px 0px 35px 0px;
+    font-size: 25px;
+
+}
+
+
+#btn{
+    color: white;
+    background-color: #4154f1;
+    padding: 15px 50px 15px 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    box-shadow: 0px 0px 2px #4154f1;
+}
+
+.mobile-iamge img{
+    height:350px  ;
+    width:450px  ;
+    padding: 0px 0px 0px 120px;
+
+}
+
+.parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 35px 100px 35px;
+}
+
+.contant-section-two{
+
+    height: 400px;
+    width: 450px;
+    background-color:#f6f9ff;
+    margin: 0px 0px 0px 0px ;
+    
+    padding: 30px 30px 30px 30px;
+}
+
+#contant-section-para-one{
+    color: #4154f1;
+    font-size: 20px;
+    font-family: Open sans-serif system-ui, 'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px 0px 18px 0px ;
+
+}
+#contant-section-para-two{
+    font-size: 25px;
+    color: #012970;
+    margin: 0px 0px 16px 0px ;
+}
+
+#contant-section-para-three{
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.group-image img{
+    height: 350px;
+    width: 427px;
+    margin: 0px 0px 0px 0px;
+}
+
+.para{
+    color: #4154f1;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.heading{
+    font-size: 37px;
+    line-height: 42px;
+    font-weight: 700;
+    font-family: Open sans-serif system-ui, 'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #012970;
+    text-align: center;
+    margin: 13px 0px 0px 0px ;
 }
