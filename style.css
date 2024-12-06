@@ -150,3 +150,70 @@ background-image: url(https://www.expertizo.pk/assets/img/hero-bg.png);
     text-align: center;
     margin: 13px 0px 0px 0px ;
 }
+
+
+.programming-languages{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px 35px 25px 35px ;
+   
+}
+/* 
+.languages-name{
+padding: 0px 0px 0px 0px ;
+
+} */
+
+
+
+.languages-name img{
+    height: 35px;
+    width: 70px;
+
+}
+.bullets{
+text-align: center;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 0px 0px 110px 0px;
+}
+
+.circle{
+    width: 12px;
+    height: 12px;
+    border: 1px solid #4154f1;
+    margin: 0px 10px 0px 0px ;
+    border-radius: 12px;
+    
+}
+
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 25px 0px 25px ;
+    gap: 30px;
+
+}
+
+
+.card{
+    height: 400px;
+    width: 300px;
+    border-bottom:1px solid green;
+ 
+
+    background-color: #ddd;
+   
+    font-size: 20px;
+    line-height: 28px;
+
+    font-family: Open sans-serif system-ui, 'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #444444;
+    text-align: center;
+    padding: 100px 10px 0px 8px ;
+
+}
+
