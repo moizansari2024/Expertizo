@@ -194,26 +194,212 @@ text-align: center;
     justify-content: space-between;
     align-items: center;
     margin: 30px 25px 0px 25px ;
-    gap: 30px;
+    gap: 25px;
+    flex-direction: row;
+    flex-wrap: wrap;
+ 
 
 }
 
 
-.card{
-    height: 400px;
-    width: 300px;
-    border-bottom:1px solid green;
- 
-
-    background-color: #ddd;
-   
+.card-one{
+    height: 320px;
+    width: 270px;
+    border-bottom:3px solid #2db6fa;
+    background-color: #fafafa;
     font-size: 20px;
     line-height: 28px;
-
     font-family: Open sans-serif system-ui, 'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
     color: #444444;
     text-align: center;
     padding: 100px 10px 0px 8px ;
+   box-shadow:0px 0 50px rgba(1, 41, 112, 0.08) ; 
+   border-radius: 5px;
 
+}
+
+.card-one:hover{
+
+    background-color: #2db6fa;
+}
+.card-two{
+    height: 320px;
+    width: 270px;
+    border-bottom:3px solid #f68c09;
+    background-color: #fafafa;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: Open sans-serif system-ui, 'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #444444;
+    text-align: center;
+    padding: 100px 10px 0px 8px ;
+   box-shadow:0px 0 50px rgba(1, 41, 112, 0.08) ; 
+   border-radius: 5px;
+}
+
+.card-two:hover{
+    background-color: #f68c09;
+}
+
+
+
+.card-three{
+    height: 320px;
+    width: 270px;
+    border-bottom:3px solid #08da4e;
+    background-color: #fafafa;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: Open sans-serif system-ui, 'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #444444;
+    text-align: center;
+    padding: 100px 10px 0px 8px ;
+   box-shadow:0px 0 50px rgba(1, 41, 112, 0.08) ; 
+   border-radius: 5px;
+}
+
+.card-three:hover{
+    background-color: #08da4e;
+}
+
+.card-four{
+    height: 320px;
+    width: 270px;
+    border-bottom:3px solid #e9222c;
+    background-color: #fafafa;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: Open sans-serif system-ui, 'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #444444;
+    text-align: center;
+    padding: 100px 10px 0px 8px ;
+   box-shadow:0px 0 50px rgba(1, 41, 112, 0.08) ;
+   border-radius: 5px;    
+}
+
+.card-four:hover{
+    background-color: #e9222c;
+}
+
+.card-five{
+    height: 320px;
+    width: 270px;
+ border-bottom: 3px solid #b50edf;
+    background-color: #fafafa;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: Open sans-serif system-ui, 'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #444444;
+    text-align: center;
+    padding: 100px 10px 0px 8px ;
+   box-shadow:0px 0 50px rgba(1, 41, 112, 0.08) ;
+   border-radius: 5px;
+}
+
+.card-five:hover{
+    background-color: #b50edf;
+}
+
+.card-six{
+    height: 320px;
+    width: 270px;
+ border-bottom: 3px solid #f51f9c;
+    background-color: #fafafa;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: Open sans-serif system-ui, 'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #444444;
+    text-align: center;
+    padding: 100px 10px 0px 8px ;
+   box-shadow:0px 0 50px rgba(1, 41, 112, 0.08) ; 
+   border-radius: 5px;
+}
+
+.card-six:hover{
+    background-color: #f51f9c;
+}
+
+.div{
+    margin: 110px 0px 0px 0px ;
+}
+
+
+.contant-section-three{
+    display: flex;
+    margin: 35px 35px 0px 35px ;
+    align-items: center;
+
+
+
+}
+
+.svg-div{
+    height: 23px;
+    width: 25px;
+    background-color: #e6e2f5 ;
+    padding: 4px 0px 4px 3px;
+    margin: 30px 0px -28px 10px;
+
+}
+
+.svg-div:hover{
+    background-color: #4154f1;
+    color: white;
+    
+}
+
+
+
+.flex-image img{
+    height:350px  ;
+    width:450px  ;
+}
+
+.flex-text{
+    display: flex;
+ align-items:center ;
+    gap: 30px;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    margin: 0px 0px 0px 10px ;
+}
+
+
+
+.column-one{
+   height: 90px;
+       width: 217px;
+    box-shadow: 0px 0 30px  rgba(1, 41, 112, 0.08);
+
+ 
+}
+.heading-two{
+ 
+    font-family: Open sans-serif system-ui, 'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #012970;
+    margin: -26px 0px 0px 50px;
+font-size: 20px;
+}
+
+.flex-text-two{
+    display: flex;
+    align-items:center ;
+       gap: 30px;
+       flex-direction: column;
+       flex-wrap: wrap;
+       margin: 0px 0px 0px 10px ;
+}
+
+.column-two{
+    height: 90px;
+    width: 217px;
+ box-shadow: 0px 0 30px  rgba(1, 41, 112, 0.08);
+}
+
+.heading-part-two{
+    font-family: Open sans-serif system-ui, 'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #012970;
+    margin: -26px 0px 0px 50px;
+    font-size: 20px;
 }
 
