@@ -394,7 +394,7 @@ padding: 0px 0px 0px 0px ;
     align-items: center;
     gap: 30px;
     flex-direction: column;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     margin: 0px 0px 0px 10px;
 }
 
@@ -440,12 +440,14 @@ padding: 0px 0px 0px 0px ;
         font-size: 15px;
         text-align: center;
     }
-    #contant-para-one{
+
+    #contant-para-one {
         font-size: 25px;
         font-family: "Open Sans";
         text-align: center;
 
     }
+
     /* #contant-para-one {
         color: #012970;
         font-size: 15px;
@@ -454,19 +456,19 @@ padding: 0px 0px 0px 0px ;
         */
 }
 
-.Portfolio{
-    margin: 35px 35px 0px 35px ;
+.Portfolio {
+    margin: 35px 35px 0px 35px;
 
 }
 
-.Portfolio-name{
+.Portfolio-name {
     display: flex;
-    justify-content:center ;
-    align-items:center ;
+    justify-content: center;
+    align-items: center;
     gap: 35px;
 }
 
-.all{
+.all {
     height: 20px;
     width: 30px;
     border: 1px solid #4154f1;
@@ -478,22 +480,23 @@ padding: 0px 0px 0px 0px ;
 
 }
 
-.web-and-app{
-    font-family: Open sans-serif system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif; 
+.web-and-app {
+    font-family: Open sans-serif system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #444444;
     font-weight: bold;
 
 }
 
-.image-card{
-    margin: 35px 35px 0px 35px ;
+.image-card {
+    margin: 35px 35px 0px 35px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
     align-items: center;
 }
-.cabin img{
+
+.cabin img {
     width: 295px;
     height: 280px;
     box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
@@ -501,17 +504,17 @@ padding: 0px 0px 0px 0px ;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-size:cover;
+    background-size: cover;
     border: 1px solid #acacac;
 
 }
 
-.Recommendation{
+.Recommendation {
     margin: 50px 53px 30px 53px;
 
 }
 
-.Recommendation-item{
+.Recommendation-item {
     height: 400px;
     width: 850px;
     background-color: #fff;
@@ -520,58 +523,58 @@ padding: 0px 0px 0px 0px ;
 
 }
 
-.star-svg{
+.star-svg {
     text-align: center;
     padding: 0px 0px 20px 0px;
 
 }
 
-.Recommendation-paragraph{
+.Recommendation-paragraph {
     font-family: Open sans-serif system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: italic; 
+    font-style: italic;
     line-height: 25px;
     padding: 0px 0px 55px 0px;
 }
 
-.image-recommend{
-text-align: center;
+.image-recommend {
+    text-align: center;
 
 }
 
-.image-recommend img{
+.image-recommend img {
     height: 150px;
     width: 150px;
     /* padding: 0px 0px 0px 0px; */
 
 }
 
-.ceo-name{
+.ceo-name {
     font-family: Open sans-serif system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
     color: #222222;
     padding: 0px 0px 6px 0px;
 }
 
-.image-para{
+.image-para {
     opacity: 0.5;
 }
 
 
-.box{
+.box {
     margin: 30px 25px 0px 25px;
 
 }
 
-.box-card{
-display: flex;
-justify-content: center;
-gap: 20px;
-flex-wrap: wrap;
-flex-direction: row;
+.box-card {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 
-.box-image{
+.box-image {
     height: 650px;
     width: 190px;
     background-color: #fff;
@@ -582,29 +585,79 @@ flex-direction: row;
 
 
 
-.box-image img{
+.box-image img {
     height: 150px;
     /* width: 150; */
 }
 
-.box-heading{
+.box-heading {
     font-family: Open sans-serif system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #012970;
-    margin: 20px 0px 0px 0px ;
+    margin: 20px 0px 0px 0px;
 }
 
 
-.box-heading-para{
+.box-heading-para {
     height: 30px;
     width: 180px;
     background-color: #012970;
     color: #fff;
-    padding: 8px 4px 0px 4px ;
+    padding: 8px 4px 0px 4px;
     border-radius: 15px;
     text-align: center;
-    margin: 5px 0px 15px 0px ;
+    margin: 5px 0px 15px 0px;
 }
 
-.simple-para{
-    line-height: 22px;
+.simple-para {
+    line-height: 20px;
+}
+
+
+
+.parent-info-box {
+    margin: 40px 0px 0px 30px;
+    display: flex;
+   
+
+}
+
+.info-box {
+   
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items:center ; */
+    /* flex-direction: column;  */
+    gap: 10px;
+} 
+
+.child-info-box{
+    height: 500px;
+    width: 50%;
+ 
+   
+}
+
+.contact-informtion {
+    width: 35%;
+    background-color: #eef2ff;
+    padding: 30px;
+    /* margin: 20px 0px 0px 0px; */
+
+
+}
+
+.contact-informtion h3 {
+    font-family: Open sans-serif system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #012970;
+    margin: 10px 0px 7px 0px;
+
+}
+
+.contact-informtion p {
+    line-height: 24px;
+    font-size: 16px;
+    color: #444444;
+
+
 }
