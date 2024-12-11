@@ -5,6 +5,10 @@
 
 .header-section {
     background-image: url(https://www.expertizo.pk/assets/img/hero-bg.png);
+    position: sticky;
+    top: 0px;
+    padding: 0px 40px 0px 40px;
+    z-index: 99999999;
 }
 
 .max-container {
@@ -615,27 +619,28 @@ padding: 0px 0px 0px 0px ;
 
 
 .parent-info-box {
-    margin: 40px 0px 0px 30px;
+    margin: 40px 30px 0px 30px;
     display: flex;
-   
+    gap: 7px;
+
 
 }
 
 .info-box {
-   
-    display: flex; 
+
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     /* align-items:center ; */
     /* flex-direction: column;  */
     gap: 10px;
-} 
+}
 
-.child-info-box{
+.child-info-box {
     height: 500px;
     width: 50%;
- 
-   
+
+
 }
 
 .contact-informtion {
@@ -659,5 +664,246 @@ padding: 0px 0px 0px 0px ;
     font-size: 16px;
     color: #444444;
 
+
+}
+
+.parent-form-section {
+    width: 50%;
+}
+
+.child-form-section {
+    background: #eef2ff;
+    padding: 30px;
+    /* height: 500px */
+}
+
+/* .grand-child{ */
+
+/* } */
+.mail-etc {
+    margin: 0px 0px 17px 0px;
+
+}
+
+.mail-etc input {
+    padding: 12px 0px 12px 15px;
+    margin: 10px 15px 0px 0px;
+
+}
+
+/* .subject{
+    width: 100%;
+} */
+
+.subject input {
+    padding: 10px 207px 10px 15px;
+    margin: 0px 0px 17px 0px;
+}
+
+.text-area {
+    margin: 0px 0px 17px 0px;
+}
+
+.text-area-changes {
+    padding: 15px 214px 0px 15px;
+}
+
+.msg-btn {
+    margin: 0px 0px 36px 120px;
+}
+
+.msg-btn button {
+    padding: 13px 35px 13px 35px;
+    color: #fff;
+    background: #4154f1;
+    font-family: Open sans-serif system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    ;
+    border: none;
+    border-radius: 7px;
+    font-size: 18px;
+}
+
+/* .footer-section {} */
+
+
+.footer-news-letter {
+    background: #f6f9ff;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer-container {
+    margin: 0px 20px 0px 20px;
+    /* padding: 0px 7px 0px 7px; */
+}
+
+/* .news-letter{
+
+} */
+
+.news-letter h4 {
+    font-size: 24px;
+    line-height: 1;
+    font-weight: 700;
+    color: #012970;
+    text-align: center;
+    font-family: Open sans-serif system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    ;
+    ;
+    margin: 0px 0px 30px 0px;
+}
+
+.mail-address {
+    text-align: center;
+
+}
+
+.input-one {
+    padding: 12px 150px 12px 10px;
+
+}
+
+.input-two {
+    padding: 8px 35px 12px 35px;
+    font-family: Open sans-serif system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    ;
+    ;
+    color: #fff;
+    background: #4154f1;
+    border: none;
+    border-radius: 7px;
+    font-size: 17px;
+    margin: 0px 0px 0px -5px;
+}
+
+.footer-top {
+    padding: 50px 0px 50px 0px;
+}
+
+.footer-child {
+    margin: 0px 25px 0px 25px;
+    padding: 0px 15px 0px 15px;
+    background-image: url(https://www.expertizo.pk/assets/img/footer-bg.png);
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.footer-contant {
+    width: 40%;
+}
+
+
+.footer-logo img {
+    height: 50px;
+    width: 170px;
+    padding: 0px 0px 15px 0px;
+
+}
+
+.footer-contant p {
+    line-height: 23px;
+    color: #444444;
+}
+
+.fb-insta-icon svg {
+    margin: 25px 0px 0px 0px;
+}
+
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items:center ;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #013289;
+}
+
+.footer-link-one {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items:center ;
+
+}
+
+.footer-link-one a {
+    text-decoration: none;
+    color: #013289;
+}
+
+.footer-link-two {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items:center ;
+
+}
+
+.footer-link-two a {
+    text-decoration: none;
+    color: #444444;
+
+}
+
+.footer-links h4 {
+    color: #013289;
+    font-family: Open sans-serif system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    ;
+    ;
+    font-size: 20px;
+}
+
+.footer-link-one h4{
+    color: #013289;
+    font-family: Open sans-serif system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    ;
+    ;
+    font-size: 20px;
+    
+}
+
+.footer-link-two h4{
+    color: #013289;
+    font-family: Open sans-serif system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    ;
+    ;
+    font-size: 20px;
+
+}
+
+.Copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    color: #013289;
+    font-family: Open sans-serif system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    ;
+    ;
+}
+
+
+.last-section{
+    padding: 40px 0px 40px 0px ;
+    background: #f6f9ff;
+}
+
+.designed{
+    text-align: center;
+    color: #013289;
+    font-family: Open sans-serif system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    ;
+    ;
 
 }
