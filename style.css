@@ -7,16 +7,21 @@
     background-image: url(https://www.expertizo.pk/assets/img/hero-bg.png);
     position: sticky;
     top: 0px;
-    padding: 0px 40px 0px 40px;
+    padding: 0px 15px 0px 15px;
     z-index: 99999999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
 }
 
 .max-container {
     max-width: 1024px;
     margin: 0px auto;
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
+    
 
 }
 
@@ -27,7 +32,7 @@
 }
 
 .logo {
-    padding: 10px 0px 10px 25px;
+    padding: 10px 0px 10px 0px;
 }
 
 
@@ -36,7 +41,7 @@
     display: flex;
     justify-content: space-between;
     gap: 30px;
-    padding: 0px 25px 0px 0px;
+    /* padding: 0px 25px 0px 0px; */
 
 }
 
@@ -90,6 +95,7 @@
     font-size: 18px;
     box-shadow: 0px 0px 2px #4154f1;
 }
+
 
 .mobile-iamge img {
     height: 350px;
@@ -862,6 +868,7 @@ padding: 0px 0px 0px 0px ;
     ;
     ;
     font-size: 20px;
+    margin: 0px 0px 15px 0px ;
 }
 
 .footer-link-one h4{
@@ -870,7 +877,7 @@ padding: 0px 0px 0px 0px ;
     ;
     ;
     font-size: 20px;
-    
+    margin: 0px 0px 15px 0px ;
 }
 
 .footer-link-two h4{
@@ -879,7 +886,7 @@ padding: 0px 0px 0px 0px ;
     ;
     ;
     font-size: 20px;
-
+    margin: 0px 0px 15px 0px ;
 }
 
 .Copyright{
@@ -905,5 +912,4 @@ padding: 0px 0px 0px 0px ;
     font-family: Open sans-serif system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     ;
     ;
-
 }
